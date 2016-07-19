@@ -1,36 +1,20 @@
-#@author jiang
- 
-class Color:
-	def draw(self):
-		pass
+# encoding = utf-8
+# @author jiang
 
-class Red(Color):
-	def draw(self):
-		print("Red::draw() method")
-
-class Green(Color):
-	def draw(self):
-		print("Green::draw() method")
-
-class Blue(Color):
-	def draw(self):
-		print("Blue::draw() method")
+class GreekGetter:
+	def get(self, msgid):    
+		return msgid[::-1]
+		
+class EnglishGetter:
+	def get(self, msgid):
+		return msgid[:]
 
 
-class ShapeFactory:
+def get_localizer(language="English"):
+    languages = dict(English=EnglishGetter, Greek=GreekGetter)
+    return languages[language]()
 
-	@staticmethod
-	def getColor(type) :
-		if type == "Red":
-			return Red()
-		elif type == "Green":
-			return Green()
-		elif type == "Blue":
-			return Blue()
-		else:
-			return Color()
-
-ShapeFactory.getColor("Red").draw()
-ShapeFactory.getColor("Green").draw()
-ShapeFactory.getColor("Blue").draw()
-ShapeFactory.getColor("asd").draw()
+# Create our localizers
+e, g = get_localizer("English"), get_localizer("Greek")
+# Localize some text
+print([(e.get(msgid), g.get(msgid)) for msgid in "dog parrot cat bear".split()])

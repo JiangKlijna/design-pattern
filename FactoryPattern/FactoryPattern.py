@@ -2,9 +2,9 @@
 # @author jiang
 
 class GreekGetter:
-	def get(self, msgid):    
+	def get(self, msgid):
 		return msgid[::-1]
-		
+
 class EnglishGetter:
 	def get(self, msgid):
 		return msgid[:]

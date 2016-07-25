@@ -13,7 +13,7 @@
 组合模式|Composite|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|X|X
 装饰模式|Decorator|[DecoratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java)|[DecoratorPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.py)|X
 外观模式|Facade|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[FacadePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.py)|X
-工厂模式|Factory|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[FactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPatternpy)|X
+工厂模式|Factory|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[FactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.py)|X
 享元模式|Flyweight|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|X|X
 解释器模式|Interpreter|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|X|X
 迭代器模式|Iterator|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|X|X

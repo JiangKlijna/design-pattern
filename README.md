@@ -4,7 +4,7 @@
 
 模式名称|English|java|python|cpp
 ----|----|----|----|----
-抽象工厂模式|AbstractFactory|[AbstractFactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java)|[AbstractFactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.py)|X
+[抽象工厂模式](#user-content-抽象工厂模式)|AbstractFactory|[AbstractFactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java)|[AbstractFactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.py)|X
 适配器模式|Adapter|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[AdapterPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.py)|X
 桥接模式|Bridge|[BridgePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.java)|[BridgePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.py)|X
 建造者模式|Builder|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|X|X
@@ -14,7 +14,7 @@
 装饰模式|Decorator|[DecoratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java)|[DecoratorPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.py)|X
 外观模式|Facade|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[FacadePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.py)|X
 工厂模式|Factory|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[FactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.py)|X
-享元模式|Flyweight|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|X|X
+享元模式|Flyweight|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|[FlyweightPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.py)|X
 解释器模式|Interpreter|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|X|X
 迭代器模式|Iterator|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|X|X
 中介模式|Mediator|[MediatorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java)|X|X
@@ -55,3 +55,14 @@
 ......|Strategy|算法
 ......|Template|算法中的某些步骤
 ......|Visitor|某些可以作用于一个(组)对象上的操作,但不能修改这些对象的类
+
+- 设计模式描述
+
+#### 抽象工厂模式
+* 意图
+  * 提供一个创建一系列相关或相互依赖对象的接口,而无需指定他们具体的类
+* 适用性
+  * 一个系统要独立于它的产品的创建,组合和表示时
+  * 一个系统要由多个产品系列中的一个来配置时
+  * 当你要强调一系列相关的产品对象的设计以便进行联合使用时
+  * 当你提供一个产品类库,而只想显示它们的接口而不是实现时

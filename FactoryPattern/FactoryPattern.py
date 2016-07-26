@@ -1,5 +1,4 @@
 # encoding = utf-8
-# @author jiang
 
 class GreekGetter:
 	def get(self, msgid):

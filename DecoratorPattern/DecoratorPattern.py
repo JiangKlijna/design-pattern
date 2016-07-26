@@ -1,5 +1,4 @@
 # encoding = utf-8
-# @author jiang
 
 class foo(object):
     def f1(self):

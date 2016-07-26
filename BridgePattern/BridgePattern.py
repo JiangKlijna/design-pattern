@@ -1,5 +1,4 @@
 # encoding = utf-8
-# @author jiang
 
 # ConcreteImplementor 1/2
 class DrawingAPI1(object):

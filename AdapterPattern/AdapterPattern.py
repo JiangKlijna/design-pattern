@@ -1,5 +1,5 @@
 # encoding = utf-8
-# @author jiang
+
 import os
 
 class Dog(object):

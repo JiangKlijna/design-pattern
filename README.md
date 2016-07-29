@@ -20,9 +20,9 @@
 [中介模式](#user-content-中介模式)|Mediator|[MediatorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java)|X|X
 [备忘录模式](#user-content-观察者模式)|Memento|[MementoPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java)|X|X
 [观察者模式](#user-content-)|Observer|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|X|X
-[原型模式](#user-content-原型模式)|Prototype|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|X|X
+[原型模式](#user-content-原型模式)|Prototype|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|[PrototypePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.py)|X
 [代理模式](#user-content-代理模式)|Proxy|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[ProxyPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.py)|X
-[单例模式](#user-content-单例模式)|Singleton|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|X|X
+[单例模式](#user-content-单例模式)|Singleton|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[SingletonPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.py)|X
 [状态模式](#user-content-状态模式)|State|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|X|X
 [策略模式](#user-content-策略模式)|Strategy|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|X|X
 [模板方法模式](#user-content-模板方法模式)|Template|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|X|X

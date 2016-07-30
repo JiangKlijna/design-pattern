@@ -7,7 +7,7 @@
 [抽象工厂模式](#user-content-抽象工厂模式)|AbstractFactory|[AbstractFactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java)|[AbstractFactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.py)|X
 [适配器模式](#user-content-适配器模式)|Adapter|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[AdapterPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.py)|X
 [桥接模式](#user-content-桥接模式)|Bridge|[BridgePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.java)|[BridgePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.py)|X
-[建造者模式](#user-content-建造者模式)|Builder|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|X|X
+[建造者模式](#user-content-建造者模式)|Builder|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|[BuilderPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.py)|X
 [责任链模式](#user-content-责任链模式)|Chain|[ChainPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.java)|X|X
 [命令模式](#user-content-命令模式)|Command|[CommandPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.java)|X|X
 [组合模式](#user-content-组合模式)|Composite|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|X|X

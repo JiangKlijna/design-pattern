@@ -16,7 +16,7 @@
 [工厂模式](#user-content-工厂模式)|Factory|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[FactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.py)|X
 [享元模式](#user-content-享元模式)|Flyweight|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|[FlyweightPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.py)|X
 [解释器模式](#user-content-解释器模式)|Interpreter|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|X|X
-[迭代器模式](#user-content-迭代器模式)|Iterator|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|X|X
+[迭代器模式](#user-content-迭代器模式)|Iterator|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|[IteratorPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.py)|X
 [中介模式](#user-content-中介模式)|Mediator|[MediatorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java)|X|X
 [备忘录模式](#user-content-观察者模式)|Memento|[MementoPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java)|X|X
 [观察者模式](#user-content-)|Observer|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|X|X

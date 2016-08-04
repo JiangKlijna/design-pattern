@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Designpattern by JiangKlijna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Designpattern</h1>
+      <h2 class="project-tagline">DesignPattern Implement By cpp,java...</h2>
+      <a href="https://github.com/JiangKlijna/DesignPattern" class="btn">View on GitHub</a>
+      <a href="https://github.com/JiangKlijna/DesignPattern/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/JiangKlijna/DesignPattern/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="designpattern" class="anchor" href="#designpattern" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DesignPattern</h1>
+
+<ul>
+<li>DesignPattern Implement By cpp, java, python...</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>模式名称</th>
+<th>English</th>
+<th>java</th>
+<th>python</th>
+<th>cpp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#user-content-%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F">抽象工厂模式</a></td>
+<td>AbstractFactory</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java">AbstractFactoryPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.py">AbstractFactoryPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F">适配器模式</a></td>
+<td>Adapter</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java">AdapterPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.py">AdapterPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F">桥接模式</a></td>
+<td>Bridge</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.java">BridgePattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.py">BridgePattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F">建造者模式</a></td>
+<td>Builder</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java">BuilderPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.py">BuilderPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F">责任链模式</a></td>
+<td>Chain</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.java">ChainPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.py">ChainPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F">命令模式</a></td>
+<td>Command</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.java">CommandPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.py">CommandPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F">组合模式</a></td>
+<td>Composite</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java">CompositePattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.py">CompositePattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F">装饰模式</a></td>
+<td>Decorator</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java">DecoratorPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.py">DecoratorPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F">外观模式</a></td>
+<td>Facade</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java">FacadePattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.py">FacadePattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F">工厂模式</a></td>
+<td>Factory</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java">FactoryPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.py">FactoryPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F">享元模式</a></td>
+<td>Flyweight</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java">FlyweightPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.py">FlyweightPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F">解释器模式</a></td>
+<td>Interpreter</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java">InterpreterPattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F">迭代器模式</a></td>
+<td>Iterator</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java">IteratorPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.py">IteratorPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E4%B8%AD%E4%BB%8B%E6%A8%A1%E5%BC%8F">中介模式</a></td>
+<td>Mediator</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java">MediatorPattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F">备忘录模式</a></td>
+<td>Memento</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java">MementoPattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-">观察者模式</a></td>
+<td>Observer</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java">ObserverPattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F">原型模式</a></td>
+<td>Prototype</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java">PrototypePattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.py">PrototypePattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F">代理模式</a></td>
+<td>Proxy</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java">ProxyPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.py">ProxyPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F">单例模式</a></td>
+<td>Singleton</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java">SingletonPattern.java</a></td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.py">SingletonPattern.py</a></td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F">状态模式</a></td>
+<td>State</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java">StatePattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F">策略模式</a></td>
+<td>Strategy</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java">StrategyPattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F">模板方法模式</a></td>
+<td>Template</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java">TemplatePattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td><a href="#user-content-%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F">访问者模式</a></td>
+<td>Visitor</td>
+<td><a href="https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java">VisitorPattern.java</a></td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>设计模式所支持的设计的可变方面</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>目的</th>
+<th>设计模式</th>
+<th>可变的方向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>创建</td>
+<td>AbstractFactory</td>
+<td>产品对象家族</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Builder</td>
+<td>如何创建一个组合对象</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Factory</td>
+<td>被实例化的子类</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Prototype</td>
+<td>实例化的子类</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Singleton</td>
+<td>一个类的惟一实例</td>
+</tr>
+<tr>
+<td>结构</td>
+<td>Adapter</td>
+<td>对象的接口</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Bridge</td>
+<td>对象的实现</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Composite</td>
+<td>一个对象的结构和组成</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Decorator</td>
+<td>对象的职责,不生成子类</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Facade</td>
+<td>一个子系统的接口</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Flyweight</td>
+<td>对象的存储开销</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Proxy</td>
+<td>如何访问一个对象;该对象的位置</td>
+</tr>
+<tr>
+<td>行为</td>
+<td>Chain</td>
+<td>满足一个请求的对象</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Command</td>
+<td>何时,怎样满足一个对象</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Interpreter</td>
+<td>一个语言的文法及解释</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Iterator</td>
+<td>如何遍历,访问一个聚合的各元素</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Mediator</td>
+<td>对象间怎样交互,和谁交互</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Memento</td>
+<td>一个对象中哪些私有信息存放在该对象之外,以及在什么时候存储</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Observer</td>
+<td>多个对象依赖于另外一个对象,而这些对象又如何保持一致</td>
+</tr>
+<tr>
+<td>......</td>
+<td>State</td>
+<td>对象的状态</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Strategy</td>
+<td>算法</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Template</td>
+<td>算法中的某些步骤</td>
+</tr>
+<tr>
+<td>......</td>
+<td>Visitor</td>
+<td>某些可以作用于一个(组)对象上的操作,但不能修改这些对象的类</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>设计模式描述</li>
+</ul>
+
+<h4>
+<a id="抽象工厂模式" class="anchor" href="#%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>抽象工厂模式</h4>
+
+<ul>
+<li>意图
+
+<ul>
+<li>提供一个创建一系列相关或相互依赖对象的接口,而无需指定他们具体的类</li>
+</ul>
+</li>
+<li>适用性
+
+<ul>
+<li>一个系统要独立于它的产品的创建,组合和表示时</li>
+<li>一个系统要由多个产品系列中的一个来配置时</li>
+<li>当你要强调一系列相关的产品对象的设计以便进行联合使用时</li>
+<li>当你提供一个产品类库,而只想显示它们的接口而不是实现时</li>
+</ul>
+</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/JiangKlijna/DesignPattern">Designpattern</a> is maintained by <a href="https://github.com/JiangKlijna">JiangKlijna</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

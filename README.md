@@ -26,7 +26,7 @@
 [状态模式](#user-content-状态模式)|State|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|[StatePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.py)|X
 [策略模式](#user-content-策略模式)|Strategy|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|X|X
 [模板方法模式](#user-content-模板方法模式)|Template|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[TemplatePattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.py)|X
-[访问者模式](#user-content-访问者模式)|Visitor|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|X|X
+[访问者模式](#user-content-访问者模式)|Visitor|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|[VisitorPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.py)|X
 
 - 设计模式所支持的设计的可变方面
 

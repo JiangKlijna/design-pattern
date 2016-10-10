@@ -1,8 +1,8 @@
 # DesignPattern
 
-- DesignPattern Implement By cpp, java, python...
+- DesignPattern Implement By java, python, go...
 
-模式名称|English|java|python|cpp
+模式名称|English|java|python|go
 ----|----|----|----|----
 [抽象工厂模式](#user-content-抽象工厂模式)|AbstractFactory|[AbstractFactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java)|[AbstractFactoryPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.py)|X
 [适配器模式](#user-content-适配器模式)|Adapter|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[AdapterPattern.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.py)|X

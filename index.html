@@ -23,7 +23,7 @@
 <a id="designpattern" class="anchor" href="#designpattern" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DesignPattern</h1>
 
 <ul>
-<li>DesignPattern Implement By cpp, java, python...</li>
+<li>DesignPattern Implement By java, python, go...</li>
 </ul>
 
 <table>
@@ -33,7 +33,7 @@
 <th>English</th>
 <th>java</th>
 <th>python</th>
-<th>cpp</th>
+<th>go</th>
 </tr>
 </thead>
 <tbody>
@@ -454,6 +454,85 @@
 <li>支持取消操作</li>
 <li>支持修改日志,这样当系统崩溃时,这些修改可以被重做一遍</li>
 <li>用构建在原语操作上的高层操作构造一个系统</li>
+</ul>
+</li>
+</ul>
+
+<h4>
+<a id="组合模式" class="anchor" href="#%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>组合模式</h4>
+
+<ul>
+<li>意图
+
+<ul>
+<li>将对象组合成树形结构以表示"部分 -整体"的层次结构.Composite使得用户对单个对象和组合对象的使用具有一致性.</li>
+</ul>
+</li>
+<li>适用性
+
+<ul>
+<li>你想表示对象的部分-整体层次结构.</li>
+<li>你希望用户忽略组合对象与单个对象的不同,用户将统一地使用组合结构中的所有对象.</li>
+</ul>
+</li>
+</ul>
+
+<h4>
+<a id="装饰模式" class="anchor" href="#%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>装饰模式</h4>
+
+<ul>
+<li>意图
+
+<ul>
+<li>动态地给一个对象添加一些额外的职责.就增加功能来说,Decorator模式相比生成子类更为灵活.</li>
+</ul>
+</li>
+<li>适用性
+
+<ul>
+<li>在不影响其他对象的情况下,以动态、透明的方式给单个对象添加职责.</li>
+<li>处理那些可以撤消的职责.</li>
+<li>当不能采用生成子类的方法进行扩充时.一种情况是,可能有大量独立的扩展,为支持每一种组合将产生大量的子类,使得子类数目呈爆炸性增长.另一种情况可能是因为类定义被隐藏,或类定义不能用于生成子类.</li>
+</ul>
+</li>
+</ul>
+
+<h4>
+<a id="外观模式" class="anchor" href="#%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>外观模式</h4>
+
+<ul>
+<li>意图
+
+<ul>
+<li>为子系统中的一组接口提供一个一致的界面, Facade模式定义了一个高层接口,这个接口使得这一子系统更加容易使用.</li>
+</ul>
+</li>
+<li>适用性
+
+<ul>
+<li>当你要为一个复杂子系统提供一个简单接口时.子系统往往因为不断演化而变得越来越复杂.大多数模式使用时都会产生更多更小的类.这使得子系统更具可重用性,也更容易对子系统进行定制,但这也给那些不需要定制子系统的用户带来一些使用上的困难.Facade可以提供一个简单的缺省视图,这一视图对大多数用户来说已经足够,而那些需要更多的可定制性的用户可以越过facade层.</li>
+<li>客户程序与抽象类的实现部分之间存在着很大的依赖性.引入 facade将这个子系统与客户以及其他的子系统分离,可以提高子系统的独立性和可移植性.</li>
+<li>当你需要构建一个层次结构的子系统时,使用 facade模式定义子系统中每层的入口点.如果子系统之间是相互依赖的,你可以让它们仅通过 facade进行通讯,从而简化了它们之间的依赖关系.</li>
+</ul>
+</li>
+</ul>
+
+<h4>
+<a id="工厂模式" class="anchor" href="#%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>工厂模式</h4>
+
+<ul>
+<li>意图
+
+<ul>
+<li>定义一个用于创建对象的接口,让子类决定实例化哪一个类. Factory Method使一个类的实例化延迟到其子类.</li>
+</ul>
+</li>
+<li>适用性
+
+<ul>
+<li>当一个类不知道它所必须创建的对象的类的时候.</li>
+<li>当一个类希望由它的子类来指定它所创建的对象的时候.</li>
+<li>当类将创建对象的职责委托给多个帮助子类中的某一个,并且你希望将哪一个帮助子类是代理者这一信息局部化的时候.</li>
 </ul>
 </li>
 </ul>

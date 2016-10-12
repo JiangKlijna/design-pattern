@@ -1,8 +1,8 @@
 # DesignPattern
 
-- DesignPattern Implement By java, python, go...
+- DesignPattern Implement By java, python...
 
-模式名称|java8|python3.5|go1.7
+模式名称|java8|python3.5|X
 ----|----|----|----
 [抽象工厂模式](#user-content-抽象工厂模式)|[AbstractFactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java)|[AbstractFactory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.py)|X
 [适配器模式](#user-content-适配器模式)|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[Adapter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.py)|X
@@ -28,7 +28,7 @@
 [模板方法模式](#user-content-模板方法模式)|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)|X
 [访问者模式](#user-content-访问者模式)|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|[Visitor.py](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/Visitor.py)|X
 
-- 设计模式所支持的设计的可变方面
+- 设计模式所支持的设计的可变方面(设计模式可复用面向对象软件设计基础)
 
 目的|设计模式|可变的方向
 ----|----|----
@@ -56,7 +56,7 @@
 ......|Template|算法中的某些步骤
 ......|Visitor|某些可以作用于一个(组)对象上的操作,但不能修改这些对象的类
 
-- 设计模式描述
+- 设计模式描述(设计模式可复用面向对象软件设计基础)
 
 #### 抽象工厂模式
 * 意图
@@ -139,3 +139,37 @@
   * 当一个类不知道它所必须创建的对象的类的时候.
   * 当一个类希望由它的子类来指定它所创建的对象的时候.
   * 当类将创建对象的职责委托给多个帮助子类中的某一个,并且你希望将哪一个帮助子类是代理者这一信息局部化的时候.
+
+#### 享元模式
+* 意图
+  * 运用共享技术有效地支持大量细粒度的对象.
+* 适用性
+  * 一个应用程序使用了大量的对象.
+  * 完全由于使用大量的对象，造成很大的存储开销.
+  * 对象的大多数状态都可变为外部状态.
+  * 如果删除对象的外部状态，那么可以用相对较少的共享对象取代很多组对象.
+  * 应用程序不依赖于对象标识.由于Flyweight对象可以被共享，对于概念上明显有别的对象，标识测试将返回真值.
+
+#### 解释器模式
+* 意图
+  * 给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示
+来解释语言中的句子.
+* 适用性
+  * 该文法简单对于复杂的文法 , 文法的类层次变得庞大而无法管理.此时语法分析程序生成器这样的工具是更好的选择.它们无需构建抽象语法树即可解释表达式 , 这样可以节省空间而且还可能节省时间.
+  * 效率不是一个关键问题最高效的解释器通常不是通过直接解释语法分析树实现的 , 而是首先将它们转换成另一种形式.例如，正则表达式通常被转换成状态机.但即使在这种情况下, 转换器仍可用解释器模式实现, 该模式仍是有用的.
+
+#### 迭代器模式
+* 意图
+  * 提供一种方法顺序访问一个聚合对象中各个元素 , 而又不需暴露该对象的内部表示.
+* 适用性
+  * 访问一个聚合对象的内容而无需暴露它的内部表示.
+  * 支持对聚合对象的多种遍历.
+  * 为遍历不同的聚合结构提供一个统一的接口 (即, 支持多态迭代).
+
+#### 中介模式
+* 意图
+  * 用一个中介对象来封装一系列的对象交互.中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互.
+* 适用性
+  * 一组对象以定义良好但是复杂的方式进行通信.产生的相互依赖关系结构混乱且难以理解.
+  * 一个对象引用其他很多对象并且直接与这些对象通信 ,导致难以复用该对象.
+  * 想定制一个分布在多个类中的行为，而又不想生成太多的子类.

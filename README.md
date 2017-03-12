@@ -2,61 +2,61 @@
 
 - DesignPattern Implement By java, python...
 
-模式名称|java8|python3.5|X
+name|java8|python3.6
 ----|----|----|----
-[抽象工厂模式](#user-content-抽象工厂模式)|[AbstractFactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactoryPattern.java)|[AbstractFactory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.py)|X
-[适配器模式](#user-content-适配器模式)|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[Adapter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.py)|X
-[桥接模式](#user-content-桥接模式)|[BridgePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.java)|[Bridge.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.py)|X
-[建造者模式](#user-content-建造者模式)|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)|X
-[责任链模式](#user-content-责任链模式)|[ChainPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.java)|[Chain.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.py)|X
-[命令模式](#user-content-命令模式)|[CommandPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)|X
-[组合模式](#user-content-组合模式)|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)|X
-[装饰模式](#user-content-装饰模式)|[DecoratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java)|[Decorator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.py)|X
-[外观模式](#user-content-外观模式)|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)|X
-[工厂模式](#user-content-工厂模式)|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)|X
-[享元模式](#user-content-享元模式)|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|[Flyweight.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/Flyweight.py)|X
-[解释器模式](#user-content-解释器模式)|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|[Interpreter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.py)|X
-[迭代器模式](#user-content-迭代器模式)|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)|X
-[中介模式](#user-content-中介模式)|[MediatorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java)|[Mediator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.py)|X
-[备忘录模式](#user-content-观察者模式)|[MementoPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)|X
-[观察者模式](#user-content-)|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)|X
-[原型模式](#user-content-原型模式)|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)|X
-[代理模式](#user-content-代理模式)|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)|X
-[单例模式](#user-content-单例模式)|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)|X
-[状态模式](#user-content-状态模式)|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)|X
-[策略模式](#user-content-策略模式)|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)|X
-[模板方法模式](#user-content-模板方法模式)|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)|X
-[访问者模式](#user-content-访问者模式)|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|[Visitor.py](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/Visitor.py)|X
+[抽象工厂模式](#user-content-抽象工厂模式)|[AbstractFactory.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.java)|[AbstractFactory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.py)
+[适配器模式](#user-content-适配器模式)|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[Adapter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.py)
+[桥接模式](#user-content-桥接模式)|[BridgePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.java)|[Bridge.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.py)
+[建造者模式](#user-content-建造者模式)|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)
+[责任链模式](#user-content-责任链模式)|[ChainPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.java)|[Chain.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.py)
+[命令模式](#user-content-命令模式)|[CommandPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)
+[组合模式](#user-content-组合模式)|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
+[装饰模式](#user-content-装饰模式)|[DecoratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java)|[Decorator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.py)
+[外观模式](#user-content-外观模式)|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)
+[工厂模式](#user-content-工厂模式)|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)
+[享元模式](#user-content-享元模式)|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|[Flyweight.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/Flyweight.py)
+[解释器模式](#user-content-解释器模式)|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|[Interpreter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.py)
+[迭代器模式](#user-content-迭代器模式)|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)
+[中介模式](#user-content-中介模式)|[MediatorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java)|[Mediator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.py)
+[备忘录模式](#user-content-观察者模式)|[MementoPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
+[观察者模式](#user-content-)|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
+[原型模式](#user-content-原型模式)|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
+[代理模式](#user-content-代理模式)|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
+[单例模式](#user-content-单例模式)|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
+[状态模式](#user-content-状态模式)|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)
+[策略模式](#user-content-策略模式)|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)
+[模板方法模式](#user-content-模板方法模式)|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)
+[访问者模式](#user-content-访问者模式)|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|[Visitor.py](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/Visitor.py)
 
-- 设计模式所支持的设计的可变方面(设计模式可复用面向对象软件设计基础)
+- 对每个设计模式的理解
 
-目的|设计模式|可变的方向
+目的|设计模式|理解
 ----|----|----
-创建|AbstractFactory|产品对象家族
-......|Builder|如何创建一个组合对象
-......|Factory|被实例化的子类
-......|Prototype|实例化的子类
-......|Singleton|一个类的惟一实例
-结构|Adapter|对象的接口
-......|Bridge|对象的实现
-......|Composite|一个对象的结构和组成
-......|Decorator|对象的职责,不生成子类
-......|Facade|一个子系统的接口
-......|Flyweight|对象的存储开销
-......|Proxy|如何访问一个对象;该对象的位置
-行为|Chain|满足一个请求的对象
-......|Command|何时,怎样满足一个对象
-......|Interpreter|一个语言的文法及解释
-......|Iterator|如何遍历,访问一个聚合的各元素
-......|Mediator|对象间怎样交互,和谁交互
-......|Memento|一个对象中哪些私有信息存放在该对象之外,以及在什么时候存储
-......|Observer|多个对象依赖于另外一个对象,而这些对象又如何保持一致
-......|State|对象的状态
-......|Strategy|算法
-......|Template|算法中的某些步骤
-......|Visitor|某些可以作用于一个(组)对象上的操作,但不能修改这些对象的类
+创建|AbstractFactory|提供若干工厂,从而进一步拿到不同工厂的产品
+......|Builder|略
+......|Factory|略
+......|Prototype|略
+......|Singleton|略
+结构|Adapter|略
+......|Bridge|略
+......|Composite|略
+......|Decorator|略
+......|Facade|略
+......|Flyweight|略
+......|Proxy|略
+行为|Chain|略
+......|Command|略
+......|Interpreter|略
+......|Iterator|略
+......|Mediator|略
+......|Memento|略
+......|Observer|略
+......|State|略
+......|Strategy|略
+......|Template|略
+......|Visitor|略
 
-- 设计模式描述(设计模式可复用面向对象软件设计基础)
+- 设计模式描述(设计模式可复用面向对象软件设计基础)(书上原话)
 
 #### 抽象工厂模式
 * 意图

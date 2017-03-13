@@ -5,7 +5,7 @@
 name|java8|python3.6
 ----|----|----|----
 [抽象工厂模式](#user-content-抽象工厂模式)|[AbstractFactory.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.java)|[AbstractFactory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.py)
-[适配器模式](#user-content-适配器模式)|[AdapterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/AdapterPattern.java)|[Adapter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.py)
+[适配器模式](#user-content-适配器模式)|[Adapter.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.java)|[Adapter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.py)
 [桥接模式](#user-content-桥接模式)|[BridgePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/BridgePattern.java)|[Bridge.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.py)
 [建造者模式](#user-content-建造者模式)|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)
 [责任链模式](#user-content-责任链模式)|[ChainPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.java)|[Chain.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.py)
@@ -37,7 +37,7 @@ name|java8|python3.6
 ......|Factory|略
 ......|Prototype|略
 ......|Singleton|略
-结构|Adapter|略
+结构|Adapter|通过适配器,使得原本由于接口不兼容而不能一起工作的类可以一起工作
 ......|Bridge|略
 ......|Composite|略
 ......|Decorator|略

@@ -1,6 +1,4 @@
-/**
- * @author jiang
- */
+
 interface DrawAPI {
 	public void drawCircle(int radius, int x, int y);
 }
@@ -39,12 +37,13 @@ class Circle extends Shape {
 		this.radius = radius;
 	}
 
+	@Override
 	public void draw() {
 		drawAPI.drawCircle(radius, x, y);
 	}
 }
 
-public class BridgePattern {
+public class Bridge {
 
 	public static void main(String[] args) {
 		Shape redCircle = new Circle(100, 100, 10, new RedCircle());

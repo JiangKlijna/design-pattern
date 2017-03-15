@@ -7,7 +7,7 @@ name|java8|python3.6
 [抽象工厂模式](#user-content-抽象工厂模式)|[AbstractFactory.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.java)|[AbstractFactory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AbstractFactoryPattern/AbstractFactory.py)
 [适配器模式](#user-content-适配器模式)|[Adapter.java](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.java)|[Adapter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/AdapterPattern/Adapter.py)
 [桥接模式](#user-content-桥接模式)|[Bridge.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.java)|[Bridge.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.py)
-[建造者模式](#user-content-建造者模式)|[BuilderPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/BuilderPattern.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)
+[建造者模式](#user-content-建造者模式)|[Builder.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)
 [责任链模式](#user-content-责任链模式)|[ChainPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/ChainPattern.java)|[Chain.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.py)
 [命令模式](#user-content-命令模式)|[CommandPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)
 [组合模式](#user-content-组合模式)|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
@@ -33,12 +33,12 @@ name|java8|python3.6
 目的|设计模式|理解
 ----|----|----
 创建|AbstractFactory|提供若干工厂,从而进一步拿到不同工厂的产品
-......|Builder|略
+......|Builder|使构建一个复杂对象的表示,更容易阅读
 ......|Factory|略
 ......|Prototype|略
 ......|Singleton|略
 结构|Adapter|通过适配器,使得原本由于接口不兼容而不能一起工作的类可以一起工作
-......|Bridge|重点在于分离抽象部分与实现部分，实际上是通过其他对象来实现
+......|Bridge|重点在于分离抽象部分与实现部分,实际上是通过其他对象来实现
 ......|Composite|略
 ......|Decorator|略
 ......|Facade|略

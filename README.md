@@ -9,7 +9,7 @@ name|java8|python3.6
 [桥接模式](#user-content-桥接模式)|[Bridge.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.java)|[Bridge.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BridgePattern/Bridge.py)
 [建造者模式](#user-content-建造者模式)|[Builder.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)
 [责任链模式](#user-content-责任链模式)|[Chain.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.java)|[Chain.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.py)
-[命令模式](#user-content-命令模式)|[CommandPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/CommandPattern.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)
+[命令模式](#user-content-命令模式)|[Command.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)
 [组合模式](#user-content-组合模式)|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
 [装饰模式](#user-content-装饰模式)|[DecoratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java)|[Decorator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.py)
 [外观模式](#user-content-外观模式)|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)
@@ -45,7 +45,7 @@ name|java8|python3.6
 ......|Flyweight|略
 ......|Proxy|略
 行为|Chain|将多个对象连成链,并沿链传递,使多个对象都有机会处理它
-......|Command|略
+......|Command|将一个请求封装为对象,并排队,记录日志,且支持可逆
 ......|Interpreter|略
 ......|Iterator|略
 ......|Mediator|略

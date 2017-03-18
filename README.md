@@ -10,7 +10,7 @@ name|java8|python3.6
 [建造者模式](#user-content-建造者模式)|[Builder.java](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.java)|[Builder.py](https://github.com/JiangKlijna/DesignPattern/blob/master/BuilderPattern/Builder.py)
 [责任链模式](#user-content-责任链模式)|[Chain.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.java)|[Chain.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ChainPattern/Chain.py)
 [命令模式](#user-content-命令模式)|[Command.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)
-[组合模式](#user-content-组合模式)|[CompositePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/CompositePattern.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
+[组合模式](#user-content-组合模式)|[Composite.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
 [装饰模式](#user-content-装饰模式)|[DecoratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/DecoratorPattern.java)|[Decorator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.py)
 [外观模式](#user-content-外观模式)|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)
 [工厂模式](#user-content-工厂模式)|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)
@@ -39,7 +39,7 @@ name|java8|python3.6
 ......|Singleton|略
 结构|Adapter|通过适配器,使得原本由于接口不兼容而不能一起工作的类可以一起工作
 ......|Bridge|重点在于分离抽象部分与实现部分,实际上是通过其他对象来实现
-......|Composite|略
+......|Composite|多个对象组成单个对象，使用户对单个对象和整合对象的使用具有一致性
 ......|Decorator|略
 ......|Facade|略
 ......|Flyweight|略

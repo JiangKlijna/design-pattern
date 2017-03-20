@@ -12,7 +12,7 @@ name|java8|python3.6
 [命令模式](#user-content-命令模式)|[Command.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.java)|[Command.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CommandPattern/Command.py)
 [组合模式](#user-content-组合模式)|[Composite.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
 [装饰模式](#user-content-装饰模式)|[Decorator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.java)|[Decorator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.py)
-[外观模式](#user-content-外观模式)|[FacadePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/FacadePattern.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)
+[外观模式](#user-content-外观模式)|[Facade.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)
 [工厂模式](#user-content-工厂模式)|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)
 [享元模式](#user-content-享元模式)|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|[Flyweight.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/Flyweight.py)
 [解释器模式](#user-content-解释器模式)|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|[Interpreter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.py)
@@ -41,7 +41,7 @@ name|java8|python3.6
 ......|Bridge|重点在于分离抽象部分与实现部分,实际上是通过其他对象来实现
 ......|Composite|多个对象组成单个对象,使用户对单个对象和整合对象的使用具有一致性
 ......|Decorator|当不能生成子类的时候,对对象添加额外的功能
-......|Facade|略
+......|Facade|为子系统提供统一的接口,防止子系统不断壮大而导致代码臃肿
 ......|Flyweight|略
 ......|Proxy|略
 行为|Chain|将多个对象连成链,并沿链传递,使多个对象都有机会处理它

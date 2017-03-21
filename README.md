@@ -13,7 +13,7 @@ name|java8|python3.6
 [组合模式](#user-content-组合模式)|[Composite.java](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.java)|[Composite.py](https://github.com/JiangKlijna/DesignPattern/blob/master/CompositePattern/Composite.py)
 [装饰模式](#user-content-装饰模式)|[Decorator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.java)|[Decorator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/DecoratorPattern/Decorator.py)
 [外观模式](#user-content-外观模式)|[Facade.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.java)|[Facade.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FacadePattern/Facade.py)
-[工厂模式](#user-content-工厂模式)|[FactoryPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/FactoryPattern.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)
+[工厂模式](#user-content-工厂模式)|[Factory.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)
 [享元模式](#user-content-享元模式)|[FlyweightPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/FlyweightPattern.java)|[Flyweight.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/Flyweight.py)
 [解释器模式](#user-content-解释器模式)|[InterpreterPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/InterpreterPattern.java)|[Interpreter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.py)
 [迭代器模式](#user-content-迭代器模式)|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)
@@ -34,7 +34,7 @@ name|java8|python3.6
 ----|----|----
 创建|AbstractFactory|提供若干工厂,从而进一步拿到不同工厂的产品
 ......|Builder|使构建一个复杂对象的表示,更容易阅读
-......|Factory|略
+......|Factory|单个工厂,拿到不同产品,工厂类为产品类的父类
 ......|Prototype|略
 ......|Singleton|略
 结构|Adapter|通过适配器,使得原本由于接口不兼容而不能一起工作的类可以一起工作

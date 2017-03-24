@@ -16,7 +16,7 @@ name|java8|python3.6
 [工厂模式](#user-content-工厂模式)|[Factory.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.java)|[Factory.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FactoryPattern/Factory.py)
 [享元模式](#user-content-享元模式)|[Flyweight.java](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/Flyweight.java)|[Flyweight.py](https://github.com/JiangKlijna/DesignPattern/blob/master/FlyweightPattern/Flyweight.py)
 [解释器模式](#user-content-解释器模式)|[Interpreter.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.java)|[Interpreter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.py)
-[迭代器模式](#user-content-迭代器模式)|[IteratorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/IteratorPattern.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)
+[迭代器模式](#user-content-迭代器模式)|[Iterator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)
 [中介模式](#user-content-中介模式)|[MediatorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/MediatorPattern.java)|[Mediator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.py)
 [备忘录模式](#user-content-观察者模式)|[MementoPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
 [观察者模式](#user-content-)|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
@@ -47,7 +47,7 @@ name|java8|python3.6
 行为|Chain|将多个对象连成链,并沿链传递,使多个对象都有机会处理它
 ......|Command|将一个请求封装为对象,并排队,记录日志,且支持可逆
 ......|Interpreter|给定一个语言,有已知的语法和规则,并定义解释器来解释句子
-......|Iterator|略
+......|Iterator|提供方法去顺序访问聚合对象中的各个对象,且不需要暴露该对象的内部表示
 ......|Mediator|略
 ......|Memento|略
 ......|Observer|略

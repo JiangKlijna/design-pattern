@@ -1,6 +1,4 @@
-/**
- * @author jiang
- */
+
 import java.util.Date;
 
 class ChatRoom {
@@ -16,10 +14,6 @@ class User {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public User(String name) {
 		this.name = name;
 	}
@@ -29,7 +23,7 @@ class User {
 	}
 }
 
-public class MediatorPattern {
+public class Mediator {
 
 	public static void main(String[] args) {
 		User robert = new User("Robert");

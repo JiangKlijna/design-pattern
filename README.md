@@ -18,7 +18,7 @@ name|java8|python3.6
 [解释器模式](#user-content-解释器模式)|[Interpreter.java](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.java)|[Interpreter.py](https://github.com/JiangKlijna/DesignPattern/blob/master/InterpreterPattern/Interpreter.py)
 [迭代器模式](#user-content-迭代器模式)|[Iterator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)
 [中介模式](#user-content-中介模式)|[Mediator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.java)|[Mediator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.py)
-[备忘录模式](#user-content-观察者模式)|[MementoPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/MementoPattern.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
+[备忘录模式](#user-content-观察者模式)|[Memento.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
 [观察者模式](#user-content-)|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
 [原型模式](#user-content-原型模式)|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
 [代理模式](#user-content-代理模式)|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
@@ -49,7 +49,7 @@ name|java8|python3.6
 ......|Interpreter|给定一个语言,有已知的语法和规则,并定义解释器来解释句子
 ......|Iterator|提供方法去顺序访问聚合对象中的各个对象,且不需要暴露该对象的内部表示
 ......|Mediator|用中介对象封装一系列的对象交互,使各对象不需要显示相互引用,可独立改变交互
-......|Memento|略
+......|Memento|在对象外部保存他内部的状态,以便于以后恢复
 ......|Observer|略
 ......|State|略
 ......|Strategy|略

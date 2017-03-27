@@ -19,7 +19,7 @@ name|java8|python3.6
 [迭代器模式](#user-content-迭代器模式)|[Iterator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.java)|[Iterator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/IteratorPattern/Iterator.py)
 [中介模式](#user-content-中介模式)|[Mediator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.java)|[Mediator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.py)
 [备忘录模式](#user-content-观察者模式)|[Memento.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
-[观察者模式](#user-content-)|[ObserverPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/ObserverPattern.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
+[观察者模式](#user-content-)|[Observer.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
 [原型模式](#user-content-原型模式)|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
 [代理模式](#user-content-代理模式)|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
 [单例模式](#user-content-单例模式)|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
@@ -50,7 +50,7 @@ name|java8|python3.6
 ......|Iterator|提供方法去顺序访问聚合对象中的各个对象,且不需要暴露该对象的内部表示
 ......|Mediator|用中介对象封装一系列的对象交互,使各对象不需要显示相互引用,可独立改变交互
 ......|Memento|在对象外部保存他内部的状态,以便于以后恢复
-......|Observer|略
+......|Observer|当一个对象状态发生改变时,所有依赖于它的对象都得到通知并自动更新
 ......|State|略
 ......|Strategy|略
 ......|Template|略

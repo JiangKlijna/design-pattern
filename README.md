@@ -20,7 +20,7 @@ name|java8|python3.6
 [中介模式](#user-content-中介模式)|[Mediator.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.java)|[Mediator.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MediatorPattern/Mediator.py)
 [备忘录模式](#user-content-观察者模式)|[Memento.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
 [观察者模式](#user-content-)|[Observer.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
-[原型模式](#user-content-原型模式)|[PrototypePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/PrototypePattern.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
+[原型模式](#user-content-原型模式)|[Prototype.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
 [代理模式](#user-content-代理模式)|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
 [单例模式](#user-content-单例模式)|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
 [状态模式](#user-content-状态模式)|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)
@@ -35,7 +35,7 @@ name|java8|python3.6
 创建|AbstractFactory|提供若干工厂,从而进一步拿到不同工厂的产品
 ......|Builder|使构建一个复杂对象的表示,更容易阅读
 ......|Factory|单个工厂,拿到不同产品,工厂类为产品类的父类
-......|Prototype|略
+......|Prototype|深复制一个包含信息的对象
 ......|Singleton|略
 结构|Adapter|通过适配器,使得原本由于接口不兼容而不能一起工作的类可以一起工作
 ......|Bridge|重点在于分离抽象部分与实现部分,实际上是通过其他对象来实现

@@ -1,6 +1,4 @@
-/**
- * @author jiang
- */
+
 interface Image {
 	void display();
 }
@@ -35,14 +33,12 @@ class ProxyImage implements Image {
 
 	@Override
 	public void display() {
-		if (realImage == null) {
-			realImage = new RealImage(fileName);
-		}
+		if (realImage == null) realImage = new RealImage(fileName);
 		realImage.display();
 	}
 }
 
-public class ProxyPattern {
+public class Proxy {
 
 	public static void main(String[] args) {
 		Image image = new ProxyImage("test_10mb.jpg");

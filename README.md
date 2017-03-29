@@ -21,7 +21,7 @@ name|java8|python3.6
 [备忘录模式](#user-content-观察者模式)|[Memento.java](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.java)|[Memento.py](https://github.com/JiangKlijna/DesignPattern/blob/master/MementoPattern/Memento.py)
 [观察者模式](#user-content-)|[Observer.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
 [原型模式](#user-content-原型模式)|[Prototype.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
-[代理模式](#user-content-代理模式)|[ProxyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/ProxyPattern.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
+[代理模式](#user-content-代理模式)|[Proxy.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
 [单例模式](#user-content-单例模式)|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
 [状态模式](#user-content-状态模式)|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)
 [策略模式](#user-content-策略模式)|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)
@@ -43,7 +43,7 @@ name|java8|python3.6
 ......|Decorator|当不能生成子类的时候,对对象添加额外的功能
 ......|Facade|为子系统提供统一的接口,防止子系统不断壮大而导致代码臃肿
 ......|Flyweight|相同的参数获得缓存池中相同的对象
-......|Proxy|略
+......|Proxy|提供此对象的功能,并确保其他对象不能改变它
 行为|Chain|将多个对象连成链,并沿链传递,使多个对象都有机会处理它
 ......|Command|将一个请求封装为对象,并排队,记录日志,且支持可逆
 ......|Interpreter|给定一个语言,有已知的语法和规则,并定义解释器来解释句子

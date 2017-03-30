@@ -1,6 +1,3 @@
-/**
- * @author jiang
- */
 
 class Singleton {
 	private Singleton() {

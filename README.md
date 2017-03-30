@@ -22,7 +22,7 @@ name|java8|python3.6
 [观察者模式](#user-content-)|[Observer.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.java)|[Observer.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ObserverPattern/Observer.py)
 [原型模式](#user-content-原型模式)|[Prototype.java](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.java)|[Prototype.py](https://github.com/JiangKlijna/DesignPattern/blob/master/PrototypePattern/Prototype.py)
 [代理模式](#user-content-代理模式)|[Proxy.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
-[单例模式](#user-content-单例模式)|[SingletonPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/SingletonPattern.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
+[单例模式](#user-content-单例模式)|[Singleton.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
 [状态模式](#user-content-状态模式)|[StatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/StatePattern.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)
 [策略模式](#user-content-策略模式)|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)
 [模板方法模式](#user-content-模板方法模式)|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)
@@ -36,7 +36,7 @@ name|java8|python3.6
 ......|Builder|使构建一个复杂对象的表示,更容易阅读
 ......|Factory|单个工厂,拿到不同产品,工厂类为产品类的父类
 ......|Prototype|深复制一个包含信息的对象
-......|Singleton|略
+......|Singleton|只允许该类,实例化一个对象
 结构|Adapter|通过适配器,使得原本由于接口不兼容而不能一起工作的类可以一起工作
 ......|Bridge|重点在于分离抽象部分与实现部分,实际上是通过其他对象来实现
 ......|Composite|多个对象组成单个对象,使用户对单个对象和整合对象的使用具有一致性

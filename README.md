@@ -1,4 +1,4 @@
-# DesignPattern
+ # DesignPattern
 
 - DesignPattern Implement By java, python...
 
@@ -24,7 +24,7 @@ name|java8|python3.6
 [代理模式](#user-content-代理模式)|[Proxy.java](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.java)|[Proxy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/ProxyPattern/Proxy.py)
 [单例模式](#user-content-单例模式)|[Singleton.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
 [状态模式](#user-content-状态模式)|[State.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)
-[策略模式](#user-content-策略模式)|[StrategyPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/StrategyPattern.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)
+[策略模式](#user-content-策略模式)|[Strategy.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)
 [模板方法模式](#user-content-模板方法模式)|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)
 [访问者模式](#user-content-访问者模式)|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|[Visitor.py](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/Visitor.py)
 
@@ -52,7 +52,7 @@ name|java8|python3.6
 ......|Memento|在对象外部保存他内部的状态,以便于以后恢复
 ......|Observer|当一个对象状态发生改变时,所有依赖于它的对象都得到通知并自动更新
 ......|State|允许一个对象在其内部状态改变时改变它的行为,看起来改变了它的类
-......|Strategy|略
+......|Strategy|定义算法,并封装,可独立使用
 ......|Template|略
 ......|Visitor|略
 

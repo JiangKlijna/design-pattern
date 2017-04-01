@@ -1,6 +1,3 @@
-/**
- * @author jiang
- */
 
 interface Strategy {
 	public int doOperation(int num1, int num2);
@@ -39,17 +36,17 @@ class Context {
 	}
 }
 
-public class StrategyPattern {
+public class Strategy {
 
 	public static void main(String[] args) {
-		Context context = new Context(new OperationAdd());
-		System.out.println("10 + 5 = " + context.executeStrategy(10, 5));
+		Context c1 = new Context(new OperationAdd());
+		System.out.println("10 + 5 = " + c1.executeStrategy(10, 5));
 
-		context = new Context(new OperationSubstract());
-		System.out.println("10 - 5 = " + context.executeStrategy(10, 5));
+		Context c2 = new Context(new OperationSubstract());
+		System.out.println("10 - 5 = " + c2.executeStrategy(10, 5));
 
-		context = new Context(new OperationMultiply());
-		System.out.println("10 * 5 = " + context.executeStrategy(10, 5));
+		Context c3 = new Context(new OperationMultiply());
+		System.out.println("10 * 5 = " + c3.executeStrategy(10, 5));
 	}
 
 }

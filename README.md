@@ -25,7 +25,7 @@ name|java8|python3.6
 [单例模式](#user-content-单例模式)|[Singleton.java](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.java)|[Singleton.py](https://github.com/JiangKlijna/DesignPattern/blob/master/SingletonPattern/Singleton.py)
 [状态模式](#user-content-状态模式)|[State.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.java)|[State.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StatePattern/State.py)
 [策略模式](#user-content-策略模式)|[Strategy.java](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.java)|[Strategy.py](https://github.com/JiangKlijna/DesignPattern/blob/master/StrategyPattern/Strategy.py)
-[模板方法模式](#user-content-模板方法模式)|[TemplatePattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/TemplatePattern.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)
+[模板方法模式](#user-content-模板方法模式)|[Template.java](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.java)|[Template.py](https://github.com/JiangKlijna/DesignPattern/blob/master/TemplatePattern/Template.py)
 [访问者模式](#user-content-访问者模式)|[VisitorPattern.java](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/VisitorPattern.java)|[Visitor.py](https://github.com/JiangKlijna/DesignPattern/blob/master/VisitorPattern/Visitor.py)
 
 - 对每个设计模式的理解
@@ -53,7 +53,7 @@ name|java8|python3.6
 ......|Observer|当一个对象状态发生改变时,所有依赖于它的对象都得到通知并自动更新
 ......|State|允许一个对象在其内部状态改变时改变它的行为,看起来改变了它的类
 ......|Strategy|定义算法,并封装,可独立使用
-......|Template|略
+......|Template|定义一个操作中的算法的骨架(不变部分),子类实现可变部分,子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤
 ......|Visitor|略
 
 - 设计模式描述(设计模式可复用面向对象软件设计基础)(书上原话)

@@ -1,6 +1,4 @@
-/**
- * @author jiang
- */
+
 abstract class Game {
 	protected abstract void initialize();
 
@@ -53,13 +51,13 @@ class Football extends Game {
 	}
 }
 
-public class TemplatePattern {
+public class Template {
 
 	public static void main(String[] args) {
-		Game game = new Cricket();
-		game.play();
-		game = new Football();
-		game.play();
+		Game g1 = new Cricket();
+		g1.play();
+		Game g2 = new Football();
+		g2.play();
 	}
 
 }

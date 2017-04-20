@@ -19,16 +19,28 @@ class Circle implements Shape {
     }
 }
 
-class RedShapeDecorator implements Shape {
+class Diamond implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Shape: Diamond");
+    }
+}
+
+class ShapeDecorator implements Shape {
     protected Shape decoratedShape;
 
-    public RedShapeDecorator(Shape decoratedShape) {
+    public ShapeDecorator(Shape decoratedShape) {
         this.decoratedShape = decoratedShape;
     }
 
     @Override
     public void draw() {
         decoratedShape.draw();
+    }
+
+    //对其他实现了Shape的类增加的功能
+    public void draw(int size) {
+        for (int i = 0; i < size; i++) decoratedShape.draw();
     }
 }
 
@@ -37,11 +49,11 @@ public class Decorator {
 
     public static void main(String[] args) {
         Shape circle = new Circle();
-        Shape redCircle = new RedShapeDecorator(new Circle());
-        Shape redRectangle = new RedShapeDecorator(new Rectangle());
+        ShapeDecorator shapeDiamond = new ShapeDecorator(new Diamond());
+        ShapeDecorator shapeRectangle = new ShapeDecorator(new Rectangle());
 
         circle.draw();
-        redCircle.draw();
-        redRectangle.draw();
+        shapeDiamond.draw(2);
+        shapeRectangle.draw(3);
     }
 }
